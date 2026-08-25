@@ -1,0 +1,290 @@
+const en = {
+  nav: {
+    experience: "Experience",
+    menu: "Menu",
+    offers: "Offers",
+    story: "Story",
+    gallery: "Gallery",
+    reviews: "Reviews",
+    contact: "Contact",
+    reserve: "Reserve",
+    reserveTable: "Reserve a Table",
+  },
+  common: {
+    book: "Book",
+    fullMenu: "Full Menu",
+    viewDish: "View Dish",
+    reserveToTaste: "Reserve to Taste",
+    done: "Done",
+    edit: "Edit details",
+    close: "Close",
+    openInMaps: "Open in Maps",
+    guests: "guests",
+    guest: "guest",
+    seats: "seats",
+    signature: "Signature",
+    scroll: "Scroll",
+  },
+  hero: {
+    location: "Taza · Morocco",
+    line1: "Authentic Lebanese Flavors",
+    line2: "Crafted With Moroccan Hospitality",
+    subtitle:
+      "A cinematic dining experience where the fire of Beirut's kitchens meets the warmth of a Marrakech evening.",
+    reserveTable: "Reserve Your Table",
+    exploreMenu: "Explore Menu",
+  },
+  experience: {
+    eyebrow: "Virtual Experience",
+    arabic: "جولة افتراضية",
+    title: "Step Inside Beirut Dishes",
+    subtitle:
+      "Wander through every corner of our world before you arrive. Choose a space to explore.",
+    spaces: [
+      {
+        name: "Main Dining Hall",
+        tagline: "The Beating Heart",
+        desc: "Beneath hand-carved arches and cascading brass chandeliers, the main hall is where Beirut comes alive. Velvet seating, warm lantern light and the aroma of charcoal set the stage.",
+        hotspots: ["Velvet banquettes", "Brass chandeliers"],
+      },
+      {
+        name: "Outdoor Terrace",
+        tagline: "Under the Stars",
+        desc: "An open-air terrace strung with lanterns and framed by jasmine. As the Taza evening cools, this is the place for mint lemonade, shisha and long conversations.",
+        hotspots: ["Lantern canopy", "Jasmine planters"],
+      },
+      {
+        name: "Family Area",
+        tagline: "Gather Together",
+        desc: "Generous booths and a relaxed rhythm make this the natural home for family feasts. Designed for sharing platters and celebrating the Lebanese way — loudly and joyfully.",
+        hotspots: ["Spacious booths", "Shared platters"],
+      },
+      {
+        name: "Private Dining",
+        tagline: "The Majlis",
+        desc: "A secluded majlis wrapped in embroidered textiles and low golden light. Reserved for intimate celebrations, business dinners and moments that deserve privacy.",
+        hotspots: ["Embroidered majlis", "Golden ambience"],
+      },
+    ],
+  },
+  chef: {
+    eyebrow: "Chef's Table",
+    arabic: "اختيار الشيف",
+    title: "The Chef Recommends",
+    subtitle:
+      "Hand-picked by our head chef — the plates that best tell the story of Beirut Dishes.",
+    chefName: "Chef Hicham Al-Rami",
+    chefRole: "Head Chef · 20 yrs",
+  },
+  menuSection: {
+    eyebrow: "The Menu",
+    arabic: "قائمة الطعام",
+    title: "A Feast for the Senses",
+    subtitle:
+      "Every plate tells a story carried from the streets of Beirut to the hills of Taza. Tap any dish to discover its soul.",
+    all: "All",
+    theStory: "The Story",
+    ingredients: "Ingredients",
+    categories: {
+      "Lebanese Plates": "Lebanese Plates",
+      "Small Plates": "Small Plates",
+      Grills: "Grills",
+      Desserts: "Desserts",
+      Drinks: "Drinks",
+    },
+  },
+  offers: {
+    eyebrow: "Offers & Events",
+    arabic: "عروض ومناسبات",
+    title: "Something Always Happening",
+    subtitle:
+      "From live oud nights to seasonal feasts — there is always a reason to gather at Beirut Dishes.",
+    items: [
+      {
+        tag: "Weeknights",
+        title: "Mezze Feast for Two",
+        arabic: "مازة لشخصين",
+        desc: "Eight signature small plates, two mint lemonades and baklava to finish.",
+        detail: "Sun–Thu · 320 MAD",
+      },
+      {
+        tag: "Live Music",
+        title: "Oud Nights",
+        arabic: "ليالي العود",
+        desc: "Live Lebanese oud & tabla every Friday from 21:00 on the terrace.",
+        detail: "Every Friday · Free entry",
+      },
+      {
+        tag: "Family",
+        title: "Sunday Family Table",
+        arabic: "مائدة العائلة",
+        desc: "Kids eat free with every family grill platter, all Sunday long.",
+        detail: "Sundays · All day",
+      },
+    ],
+  },
+  reservation: {
+    eyebrow: "Reservations",
+    arabic: "حجز طاولة",
+    title: "Reserve Your Table",
+    subtitle:
+      "Choose your moment, pick your table on the live floor plan, and confirm instantly on WhatsApp.",
+    yourDetails: "Your Details",
+    date: "Date",
+    time: "Time",
+    guests: "Guests",
+    forLarger: "For larger parties, call us",
+    seatingPreference: "Seating Preference",
+    floorPlan: "Floor Plan",
+    available: "Available",
+    reserved: "Reserved",
+    entrance: "Entrance",
+    selectPrompt: "Select an available table to continue",
+    review: "Review Reservation",
+    step: "Step 2 of 2 · Review",
+    reviewTitle: "Review Your Reservation",
+    reviewArabic: "تأكيد الحجز",
+    reviewDesc:
+      "Please confirm the details below are correct before we hold your table.",
+    confirmHold: "Confirm & Hold Table",
+    tableHeld: "Table Held for You",
+    heldArabic: "نتشرّف بحضوركم",
+    heldDesc:
+      "One last step — send us your details on WhatsApp and our team will confirm within minutes.",
+    confirmWhatsApp: "Confirm Reservation on WhatsApp",
+    labels: { date: "Date", time: "Time", guests: "Guests", seating: "Seating", table: "Table" },
+    zones: {
+      "Main Hall": "Main Hall",
+      Outdoor: "Outdoor",
+      "Family Area": "Family Area",
+      "Private Dining": "Private Dining",
+    },
+    whatsappMessage:
+      "Hello Beirut Dishes,\nI would like to reserve a table.",
+  },
+  privateDining: {
+    eyebrow: "Private Dining",
+    arabic: "الصالة الخاصة",
+    titleTop: "Host Your Moment",
+    titleBottom: "in Our Majlis",
+    body: "An intimate, embroidered majlis for celebrations, business dinners and gatherings of up to 12. Bespoke menus, dedicated service, and complete privacy — arranged entirely to your taste.",
+    stats: [
+      { n: "Up to 12", l: "Guests" },
+      { n: "Bespoke", l: "Menu" },
+      { n: "Dedicated", l: "Host" },
+    ],
+    book: "Book Private Dining",
+    enquire: "Enquire on WhatsApp",
+    whatsappMessage:
+      "Hello Beirut Dishes, I would like to enquire about booking your Private Dining majlis.",
+  },
+  story: {
+    eyebrow: "Our Story",
+    arabic: "من بيروت إلى تازة",
+    titleTop: "From Beirut Traditions",
+    titleBottom: "to the Heart of Taza",
+    body1:
+      "Beirut Dishes brings authentic flavors together with Moroccan warmth. Our recipes travelled across the Mediterranean in handwritten notebooks — guarded, perfected, and now shared with you.",
+    body2:
+      "Every spice is sourced with intention, every plate assembled by hands that learned the craft the traditional way. This is more than a meal — it is an invitation into a family's heritage.",
+    stats: [
+      { n: "12+", l: "Years of Craft" },
+      { n: "40+", l: "Signature Recipes" },
+      { n: "100%", l: "Made Fresh Daily" },
+    ],
+  },
+  gallery: {
+    eyebrow: "Gallery",
+    arabic: "معرض الصور",
+    title: "Moments Worth Framing",
+    subtitle:
+      "A glimpse into the flavors, spaces and gatherings that define Beirut Dishes.",
+    categories: {
+      All: "All",
+      Food: "Food",
+      Interior: "Interior",
+      Events: "Events",
+      Customers: "Customers",
+    },
+  },
+  reviews: {
+    eyebrow: "Guest Reviews",
+    arabic: "آراء الضيوف",
+    title: "Loved by Our Guests",
+    googleReviews: "Google reviews",
+    verified: "Verified on Google Business",
+  },
+  hours: {
+    eyebrow: "Opening Hours",
+    arabic: "أوقات العمل",
+    title: "When to Visit Us",
+    subtitle:
+      "We welcome guests seven days a week, from midday lunches to late-night feasts.",
+    openNow: "Open Now",
+    closed: "Currently Closed",
+    headline1: "Kitchen open till late,",
+    headline2: "every single day.",
+    lastOrders:
+      "Last orders 45 minutes before closing. For groups of 8 or more, we recommend reserving in advance.",
+    lunch: "Lunch",
+    dinner: "Dinner",
+    dinnerHours: "18:00 — Late",
+    days: {
+      Monday: "Monday",
+      Tuesday: "Tuesday",
+      Wednesday: "Wednesday",
+      Thursday: "Thursday",
+      Friday: "Friday",
+      Saturday: "Saturday",
+      Sunday: "Sunday",
+    },
+  },
+  services: {
+    eyebrow: "Services",
+    arabic: "خدماتنا",
+    title: "However You Prefer to Dine",
+    subtitle:
+      "From an intimate terrace dinner to a feast delivered to your table at home — we bring Beirut to you.",
+    items: [
+      { title: "Dine-In", desc: "Immerse yourself in the full Beirut Dishes atmosphere." },
+      { title: "Takeaway", desc: "Your favourites, freshly packed to enjoy anywhere." },
+      { title: "Delivery", desc: "Hot, careful delivery straight to your door in Taza." },
+      { title: "Drive Through", desc: "Grab a Lebanese feast without leaving your car." },
+      { title: "Outdoor Seating", desc: "Dine beneath lanterns on our jasmine terrace." },
+      { title: "Family Dining", desc: "Generous booths built for gathering and sharing." },
+    ],
+  },
+  contact: {
+    eyebrow: "Find Us",
+    arabic: "تواصل معنا",
+    title: "Come Dine With Us",
+    subtitle:
+      "We are waiting to welcome you with cardamom coffee and open arms.",
+    location: "Location",
+    phone: "Phone",
+    instagram: "Instagram",
+    facebook: "Facebook",
+    whatsappCta: "Message us on WhatsApp",
+    whatsappMessage: "Hello Beirut Dishes, I have a question.",
+  },
+  footer: {
+    tagline:
+      "Authentic Lebanese flavors crafted with Moroccan hospitality. A fine-dining experience in the heart of Taza, Morocco.",
+    explore: "Explore",
+    visit: "Visit",
+    menu: "Menu",
+    reservations: "Reservations",
+    gallery: "Gallery",
+    adminDemo: "Admin Demo",
+    rights: "All rights reserved.",
+    crafted: "Crafted as a luxury digital showroom experience.",
+  },
+  floating: {
+    reserve: "Reserve a Table",
+    whatsappMessage:
+      "Hello Beirut Dishes, I would like to make a reservation.",
+  },
+};
+
+export type Dictionary = typeof en;
+export default en;
