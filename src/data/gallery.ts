@@ -37,7 +37,7 @@ export const gallery: GalleryItem[] = [
   {
     id: "g3",
     category: "Food",
-    src: "https://images.unsplash.com/photo-1622440049916-95efb7b94b39?auto=format&fit=crop&w=1200&q=80",
+    src: "https://images.unsplash.com/photo-1637949907734-d5583aa35b41?auto=format&fit=crop&w=1200&q=80",
     caption: { en: "Golden Hummus Beiruti", ar: "حمّص بيروتي", fr: "Houmous doré" },
   },
   {
@@ -88,7 +88,7 @@ export const gallery: GalleryItem[] = [
   {
     id: "g11",
     category: "Food",
-    src: "https://images.unsplash.com/photo-1633321702518-7feccafb218f?auto=format&fit=crop&w=1200&q=80",
+    src: "https://images.unsplash.com/photo-1561651823-34feb02250e4?auto=format&fit=crop&w=1200&q=80",
     caption: { en: "Beirut Shawarma", ar: "شاورما بيروت", fr: "Chawarma de Beyrouth" },
     span: "wide",
   },

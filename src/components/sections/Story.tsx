@@ -83,7 +83,7 @@ export default function Story() {
               className="absolute left-0 top-0 h-72 w-56 overflow-hidden rounded-3xl border border-gold/20 shadow-luxe md:h-80 md:w-64"
             >
               <img
-                src="https://images.unsplash.com/photo-1633321702518-7feccafb218f?auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1561651823-34feb02250e4?auto=format&fit=crop&w=800&q=80"
                 alt="Signature dish"
                 className="h-full w-full object-cover"
               />
